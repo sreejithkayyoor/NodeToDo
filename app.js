@@ -16,7 +16,7 @@ app.use(cors());
 //     res.sendFile(__dirname +'\\index.html')
 // })
 app.use('/api', controllers);
-app.use('/', express.static(__dirname + '\\public\\src'));
+app.use('/', express.static(__dirname + '/public/src'));
 console.log(__dirname + '\\public\\src')
 
 app.set('view engine', 'ejs');
