@@ -21,10 +21,14 @@
   "homepage": "https://github.com/sreejithkayyoor/NodeToDo#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "ejs": "^3.0.2",
     "express": "^4.17.1",
-    "mongoose": "^5.9.7"
+    "mongoose": "^5.9.7",
+    "update": "^0.7.4"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
